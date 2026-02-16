@@ -1,0 +1,25 @@
+# Git ignore file
+node_modules/
+.DS_Store
+*.log
+.env
+.vscode/
+dist/
+build/
+
+# Local storage (development only)
+localStorage/
+
+# IDE
+*.swp
+*.swo
+*~
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Backup files
+*.bak
+*.backup

@@ -1,0 +1,87 @@
+{
+  "name": "chess-helper",
+  "version": "2.0.0",
+  "description": "Полнофункциональное шахматное приложение с поддержкой мультиплеера, ИИ и системой друзей",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "test": "echo \"Tests not implemented yet\"",
+    "build": "echo \"No build needed - vanilla JS\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/chess-helper.git"
+  },
+  "keywords": [
+    "chess",
+    "game",
+    "ai",
+    "javascript",
+    "html5",
+    "multiplayer",
+    "friends",
+    "online"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/YOUR_USERNAME/chess-helper#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/chess-helper/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "features": {
+    "gameplay": {
+      "fullChessRules": true,
+      "aiLevels": 4,
+      "moveHistory": true,
+      "undoMove": true,
+      "saveGames": false,
+      "documentation": "Полные правила шахмат со всеми 32 фигурами"
+    },
+    "users": {
+      "registration": true,
+      "emailVerification": true,
+      "profiles": true,
+      "adminPanel": true,
+      "statistics": true,
+      "documentation": "Система управления пользователями с верификацией"
+    },
+    "multiplayer": {
+      "friendSystem": true,
+      "gameInvitations": true,
+      "onlineGames": true,
+      "localSync": true,
+      "documentation": "Система друзей и приглашений на игру"
+    },
+    "statistics": {
+      "capturedPawns": true,
+      "capturedPieces": true,
+      "gameStats": true,
+      "winRate": true,
+      "documentation": "Полная статистика игроков"
+    }
+  },
+  "technical": {
+    "frontend": "HTML5 + CSS3 + Vanilla JavaScript",
+    "storage": "Browser localStorage",
+    "dependencies": "None (чистый код без зависимостей)",
+    "size": {
+      "html": "24.9 KB",
+      "javascript": "41.4 KB",
+      "total": "66.3 KB"
+    },
+    "browsers": [
+      "Chrome 90+",
+      "Firefox 88+",
+      "Safari 14+",
+      "Edge 90+"
+    ]
+  },
+  "roadmap": {
+    "v2.0": "Система друзей, онлайн-игры, счётчик фигур",
+    "v3.0": "Backend, WebSocket, Database",
+    "v4.0": "Mobile app, Cloud save, Tournaments"
+  }
+}
